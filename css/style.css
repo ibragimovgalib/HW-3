@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Noto+Sans+Limbu&family=Poppins:wght@200;300;400;500&family=Raleway:wght@500;600&display=swap"); 
+
+*{ 
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  flex-direction: column;
+}
+nav {
+  width: 270px;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  overflow: auto;
+  padding: 0px 16px;
+  background-color:  #f44336;
+}
+.h3_nav{
+    padding: 0.01em 16px;
+    color: white;
+}
+.h3_nav h3{
+    margin: 10px 0;
+    padding: 64px 0;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.pod_nav{
+    display: flex;
+    flex-direction: column;
+}
+.pod_nav a{
+    padding: 8px 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+  margin-left: 340px;
+  margin-right: 40px;
+}
+.m_01a{
+    margin-top: 80px;
+    padding: 0.01em 16px;
+}
+.m_01{
+    margin: 10px 0;
+    font-size: 64px;
+}
+.m_02{
+    margin: 10px 0;
+    color: #f44336;
+    font-size: 48px;
+}
+.m_01a hr{
+    margin: 20px 0;
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 4px;
+}
+.m_imgs{
+    padding: 0 8px;
+    display: flex;
+}
+.imgs_dd, .imgs_bb{
+    padding: 0 8px;
+}
+.m_imgs img{
+    margin: 16px 0 -6px 0;
+    width: 100%;
+}
+
+.services{
+    margin-top: 75px;
+    padding: 0.01em 16px;
+}
+.services h1{
+    font-size: 48px;
+    margin: 10px 0;
+    color: #f44336;
+}
+.services hr{
+    margin: 20px 0;
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 4px;
+}
+.services p{
+    margin: 16px 0;
+}
+
+.phots{
+    padding: 0 8px;
+    display: flex;
+}
+.ph_1{
+    padding: 0 8px;
+    width: 33.33333%;
+}
+.ph_1 img{
+    width: 100%;
+}
+.ph_txt{
+    padding: 0.01em 16px;
+    background-color: #f1f1f1;
+}
+.opac{
+    opacity: 0.60;
+}
+.ph_txt h3{
+    margin: 10px 0;
+}
+.ph_txt p{
+    margin: 16px 0;
+}
+
+.bas_pro{
+    padding: 0 8px;
+    display: flex;
+}
+.bas{
+    text-align: center;
+    width: 100%;
+}
+.bas, .pro{
+    padding: 0 8px;
+}
+.bas ul li{
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+.li_199 h2{
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+.li_199 span{
+    opacity: 0.60;
+}
+#li1{
+    padding: 32px 16px;
+    background-color: #616161;
+    color: white;
+}
+#li2{
+    padding: 32px 16px;
+    background-color:  #f44336;
+    color: white;
+}
+#li_9{
+    padding: 24px 16px;
+    border-bottom: 0;
+}
+#li2_9{
+    padding: 24px 16px;
+    border-bottom: 0;
+}
+
+#li_9 button{
+    padding: 12px 24px;
+    background-color: #fff;
+    border-style: none;
+}
+#li2_9 button{
+    padding: 12px 24px;
+    background-color: #f44336;
+    border-style: none;
+    color: white;
+}
+footer{
+    margin-top: 75px;
+    padding: 32px 58px 32px 16px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: end;
+}
+footer p{
+    margin: 16px 0;
+}
+footer a{
+    color: black;
+}
+
+.contact{
+    margin-top: 75px;
+    padding: 0.01em 16px;
+}
+.ser h1{
+    font-size: 48px;
+    margin: 10px 0;
+    color: #f44336;
+}
+.ser hr{
+    margin: 20px 0;
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 4px;
+}
+.ser p{
+    margin: 16px 0;
+}
+
+.d_form{
+    margin: 16px 0;
+    display: block;
+    box-sizing: inherit;
+}
+.d_form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 98%;
+    font: inherit;
+}
+form{
+}
+.but_t{
+    margin-bottom: 16px;
+    padding: 12px 24px;
+    text-align: center;
+    width: 100%;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    font: inherit;
+}
